@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Poppins:wght@400;500;600;700&display=swap');
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+:root {
+     --hero-background: #FEEAE9;
+     --product-background: #F4F4F4;
+     --contact-background: #FFF2F1;
+}
+h1,h2,h3,h4,h5,h6 {
+     font-family: 'Poppins', sans-serif;
+}
+p, button {
+     font-family: 'Inter', sans-serif;
+}
+ul li {
+     font-family: 'Poppins', sans-serif;
+     font-weight: 500;
+}
+button i {
+     margin-left: 10px;
+}
+.hero-content {
+     background: var(--hero-background);
+}
+.heading h1{
+     font-size: 50px;
+     font-weight: 700;
+}
+.paragraph p {
+     font-size: 16px;
+     font-weight: 400;
+}
+.price {
+     color: #FF136F;
+}
+.price h3 {
+     font-size: 41px;
+     font-weight: 500;
+}
+.buy-now {
+     background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+.buy-now button {
+     font-weight: 500;
+}
+.buy-now:hover {
+     background: #000;
+     color: #fff;
+}
+.catagory-heading h2 {
+     font-size: 36px;
+     font-weight: 600;
+}
+.watch {
+     background: linear-gradient(127.66deg, #FF9C35 7.41%, #FFD019 79.49%);
+}
+.bag {
+     background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+.shoe {
+     background: linear-gradient(170.41deg, #4289FF -10.89%, #4149FC 39.86%, #402BFA 64.15%, #3F07F8 92.77%, #3F07F8 92.77%);
+}
+#product {
+     background: var(--product-background);
+}
+.pro-shoes h2 {
+     font-size: 36px;
+     font-weight: 600;
+}
+.title h5 {
+     font-size: 24px;
+     font-weight: 600;
+}
+.desc p {
+     font-size: 15px;
+     font-weight: 600;
+}
+.shoe-btn {
+     margin-left: 85px;
+}
+.shoe-btn button {
+     font-weight: 500;
+     font-size: 16px;
+}
+.pro-shoes button {
+     color: #FF9D00;
+}
+.pro-bags h2 {
+     font-size: 36px;
+     font-weight: 600;
+}
+.pro-bags button {
+     color: #FF9D00;
+}
+.contact-content {
+     background: var(--contact-background);
+}
+.title h2 {
+     font-size: 30px;
+     font-weight: 600;
+}
+.title p {
+     font-size: 16px;
+     font-weight: 500;
+     letter-spacing: 1px;
+}
+.e-mail {
+     max-width: 683px;
+     margin: auto;
+}
+.send-btn {
+     background: linear-gradient(180deg, #FF589B 0%, #FF136F 100%);
+     font-size: 18px;
+     font-weight: 500;
+}
+footer {
+     background: #000;
+     color: #fff;
+     margin-bottom: -16px;
+}
+footer p {
+     padding: 15px;
+     text-align: center;
+}
+@media (max-width: 768px) {
+     .e-mail {
+          max-width: 400px;
+          margin: auto;
+     }
+}
